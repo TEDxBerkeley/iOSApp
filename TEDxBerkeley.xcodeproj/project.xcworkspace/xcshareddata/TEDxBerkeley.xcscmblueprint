@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8613705991E9ADF267CE5C499A383F8B8AE1076F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FAA618975600559802442A7AD8E988E918EB5D23" : 0,
+    "8613705991E9ADF267CE5C499A383F8B8AE1076F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "57E255D9-99A5-457E-B73E-B9A4843A03B1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FAA618975600559802442A7AD8E988E918EB5D23" : "iOSApp",
+    "8613705991E9ADF267CE5C499A383F8B8AE1076F" : "iOSApp2016\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TEDxBerkeley",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TEDxBerkeley.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TEDxBerkeley\/iOSapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8613705991E9ADF267CE5C499A383F8B8AE1076F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TEDxBerkeley\/iOSApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FAA618975600559802442A7AD8E988E918EB5D23"
+    }
+  ]
+}

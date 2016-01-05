@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A511DB711A7DBFB5009012BC /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511DB701A7DBFB5009012BC /* AboutViewController.swift */; };
+		A5216A7F1A76E8630037DCFC /* speakers.png in Resources */ = {isa = PBXBuildFile; fileRef = A5216A7E1A76E8630037DCFC /* speakers.png */; };
+		A5216A811A76E8A00037DCFC /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = A5216A801A76E8A00037DCFC /* about.png */; };
+		A5216A871A76EF6B0037DCFC /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = A5216A851A76EF6B0037DCFC /* music.png */; };
+		A5216A881A76EF6B0037DCFC /* speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = A5216A861A76EF6B0037DCFC /* speaker.png */; };
+		A522EC731A74EFF000369947 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = A522EC6F1A74EFF000369947 /* home.png */; };
+		A522EC761A74EFF000369947 /* timeline.png in Resources */ = {isa = PBXBuildFile; fileRef = A522EC721A74EFF000369947 /* timeline.png */; };
+		A530EC881A8F292E00FAEE55 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A530EC871A8F292E00FAEE55 /* Default-568h@2x.png */; };
+		A55A105B1A8ECBA7001E28E5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A105A1A8ECBA7001E28E5 /* DetailViewController.swift */; };
+		A568370E1A8D14DB00E71EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A568370C1A8D14DB00E71EA9 /* Main.storyboard */; };
+		A59BA6841A745CC400CB5034 /* SpeakersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59BA6831A745CC400CB5034 /* SpeakersTableViewController.swift */; };
+		A59BA6861A745CD500CB5034 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59BA6851A745CD500CB5034 /* TimelineTableViewController.swift */; };
+		A5A0B0B01A745293006914E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0B0AF1A745293006914E1 /* AppDelegate.swift */; };
+		A5A0B0B21A745293006914E1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0B0B11A745293006914E1 /* FirstViewController.swift */; };
+		A5A0B0B91A745293006914E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A0B0B81A745293006914E1 /* Images.xcassets */; };
+		A5A0B0BC1A745293006914E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A0B0BA1A745293006914E1 /* LaunchScreen.xib */; };
+		A5A0B0C81A745293006914E1 /* TEDxBerkeleyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0B0C71A745293006914E1 /* TEDxBerkeleyTests.swift */; };
+		A5AB69191A75540900DDD1C1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AB69181A75540900DDD1C1 /* logo.png */; };
+		A5C5BA0D1A8ED1E6008B2962 /* 10965404_1615056408716561_1849825701_n1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B9F81A8ED1E6008B2962 /* 10965404_1615056408716561_1849825701_n1.jpg */; };
+		A5C5BA0E1A8ED1E6008B2962 /* 120619-Meera-02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B9F91A8ED1E6008B2962 /* 120619-Meera-02.jpg */; };
+		A5C5BA0F1A8ED1E6008B2962 /* Carolyn-Gable1-e1410055772849.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B9FA1A8ED1E6008B2962 /* Carolyn-Gable1-e1410055772849.jpg */; };
+		A5C5BA101A8ED1E6008B2962 /* DanGarciaUCBFacultyTEDxBerkeley5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B9FB1A8ED1E6008B2962 /* DanGarciaUCBFacultyTEDxBerkeley5.jpg */; };
+		A5C5BA111A8ED1E6008B2962 /* DanVieder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B9FC1A8ED1E6008B2962 /* DanVieder.jpg */; };
+		A5C5BA121A8ED1E6008B2962 /* DR.-Victoria-KISYOMBE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B9FD1A8ED1E6008B2962 /* DR.-Victoria-KISYOMBE.jpg */; };
+		A5C5BA131A8ED1E6008B2962 /* Eric-Gimenez285x335.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B9FE1A8ED1E6008B2962 /* Eric-Gimenez285x335.jpg */; };
+		A5C5BA141A8ED1E6008B2962 /* Eric-Rasmussen-Head-shot-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B9FF1A8ED1E6008B2962 /* Eric-Rasmussen-Head-shot-12.jpg */; };
+		A5C5BA151A8ED1E6008B2962 /* good_emily_levine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA001A8ED1E6008B2962 /* good_emily_levine.jpg */; };
+		A5C5BA161A8ED1E6008B2962 /* headshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA011A8ED1E6008B2962 /* headshot.jpg */; };
+		A5C5BA171A8ED1E6008B2962 /* IMG_3292.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA021A8ED1E6008B2962 /* IMG_3292.jpg */; };
+		A5C5BA181A8ED1E6008B2962 /* MarcGopin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA031A8ED1E6008B2962 /* MarcGopin.jpg */; };
+		A5C5BA191A8ED1E6008B2962 /* Meyer2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA041A8ED1E6008B2962 /* Meyer2.jpg */; };
+		A5C5BA1A1A8ED1E6008B2962 /* Mike-Robbins-headshot1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA051A8ED1E6008B2962 /* Mike-Robbins-headshot1.jpg */; };
+		A5C5BA1B1A8ED1E6008B2962 /* pkaipa12-2-large-e1381879857450.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA061A8ED1E6008B2962 /* pkaipa12-2-large-e1381879857450.jpg */; };
+		A5C5BA1C1A8ED1E6008B2962 /* RSarpong_TEDX_2015_21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA071A8ED1E6008B2962 /* RSarpong_TEDX_2015_21.jpg */; };
+		A5C5BA1D1A8ED1E6008B2962 /* SABs-profile-picture1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA081A8ED1E6008B2962 /* SABs-profile-picture1.jpg */; };
+		A5C5BA1E1A8ED1E6008B2962 /* taiko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA091A8ED1E6008B2962 /* taiko.jpg */; };
+		A5C5BA1F1A8ED1E6008B2962 /* Valerie-Joi-Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA0A1A8ED1E6008B2962 /* Valerie-Joi-Photo.jpg */; };
+		A5C5BA201A8ED1E6008B2962 /* Viviana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA0B1A8ED1E6008B2962 /* Viviana.jpg */; };
+		A5C5BA211A8ED1E6008B2962 /* Woz-Head-Shot2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA0C1A8ED1E6008B2962 /* Woz-Head-Shot2.jpg */; };
+		A5C8A5AF1A8F368600DB0A98 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8A5AE1A8F368600DB0A98 /* MainTabBarController.swift */; };
+		A5CF1B181A8F268D0018768A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF1B171A8F268D0018768A /* Data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5A0B0C21A745293006914E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A0B0A21A745292006914E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5A0B0A91A745292006914E1;
+			remoteInfo = iOSApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A511DB701A7DBFB5009012BC /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		A5216A7E1A76E8630037DCFC /* speakers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speakers.png; path = images/speakers.png; sourceTree = "<group>"; };
+		A5216A801A76E8A00037DCFC /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = about.png; path = images/about.png; sourceTree = "<group>"; };
+		A5216A851A76EF6B0037DCFC /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = music.png; path = images/music.png; sourceTree = "<group>"; };
+		A5216A861A76EF6B0037DCFC /* speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speaker.png; path = images/speaker.png; sourceTree = "<group>"; };
+		A522EC6F1A74EFF000369947 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = images/home.png; sourceTree = "<group>"; };
+		A522EC721A74EFF000369947 /* timeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = timeline.png; path = images/timeline.png; sourceTree = "<group>"; };
+		A530EC871A8F292E00FAEE55 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A55A105A1A8ECBA7001E28E5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A568370D1A8D14DB00E71EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A59BA6831A745CC400CB5034 /* SpeakersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakersTableViewController.swift; sourceTree = "<group>"; };
+		A59BA6851A745CD500CB5034 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
+		A5A0B0AA1A745293006914E1 /* TEDxBerkeley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEDxBerkeley.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A0B0AE1A745293006914E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A0B0AF1A745293006914E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = iOSApp/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		A5A0B0B11A745293006914E1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A5A0B0B81A745293006914E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5A0B0BB1A745293006914E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A5A0B0C11A745293006914E1 /* TEDxBerkeleyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEDxBerkeleyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A0B0C61A745293006914E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A0B0C71A745293006914E1 /* TEDxBerkeleyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEDxBerkeleyTests.swift; sourceTree = "<group>"; };
+		A5AB69181A75540900DDD1C1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
+		A5C5B9F81A8ED1E6008B2962 /* 10965404_1615056408716561_1849825701_n1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10965404_1615056408716561_1849825701_n1.jpg; sourceTree = "<group>"; };
+		A5C5B9F91A8ED1E6008B2962 /* 120619-Meera-02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "120619-Meera-02.jpg"; sourceTree = "<group>"; };
+		A5C5B9FA1A8ED1E6008B2962 /* Carolyn-Gable1-e1410055772849.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Carolyn-Gable1-e1410055772849.jpg"; sourceTree = "<group>"; };
+		A5C5B9FB1A8ED1E6008B2962 /* DanGarciaUCBFacultyTEDxBerkeley5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DanGarciaUCBFacultyTEDxBerkeley5.jpg; sourceTree = "<group>"; };
+		A5C5B9FC1A8ED1E6008B2962 /* DanVieder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DanVieder.jpg; sourceTree = "<group>"; };
+		A5C5B9FD1A8ED1E6008B2962 /* DR.-Victoria-KISYOMBE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DR.-Victoria-KISYOMBE.jpg"; sourceTree = "<group>"; };
+		A5C5B9FE1A8ED1E6008B2962 /* Eric-Gimenez285x335.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eric-Gimenez285x335.jpg"; sourceTree = "<group>"; };
+		A5C5B9FF1A8ED1E6008B2962 /* Eric-Rasmussen-Head-shot-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eric-Rasmussen-Head-shot-12.jpg"; sourceTree = "<group>"; };
+		A5C5BA001A8ED1E6008B2962 /* good_emily_levine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = good_emily_levine.jpg; sourceTree = "<group>"; };
+		A5C5BA011A8ED1E6008B2962 /* headshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headshot.jpg; sourceTree = "<group>"; };
+		A5C5BA021A8ED1E6008B2962 /* IMG_3292.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3292.jpg; sourceTree = "<group>"; };
+		A5C5BA031A8ED1E6008B2962 /* MarcGopin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MarcGopin.jpg; sourceTree = "<group>"; };
+		A5C5BA041A8ED1E6008B2962 /* Meyer2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Meyer2.jpg; sourceTree = "<group>"; };
+		A5C5BA051A8ED1E6008B2962 /* Mike-Robbins-headshot1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mike-Robbins-headshot1.jpg"; sourceTree = "<group>"; };
+		A5C5BA061A8ED1E6008B2962 /* pkaipa12-2-large-e1381879857450.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pkaipa12-2-large-e1381879857450.jpg"; sourceTree = "<group>"; };
+		A5C5BA071A8ED1E6008B2962 /* RSarpong_TEDX_2015_21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RSarpong_TEDX_2015_21.jpg; sourceTree = "<group>"; };
+		A5C5BA081A8ED1E6008B2962 /* SABs-profile-picture1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SABs-profile-picture1.jpg"; sourceTree = "<group>"; };
+		A5C5BA091A8ED1E6008B2962 /* taiko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taiko.jpg; sourceTree = "<group>"; };
+		A5C5BA0A1A8ED1E6008B2962 /* Valerie-Joi-Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Valerie-Joi-Photo.jpg"; sourceTree = "<group>"; };
+		A5C5BA0B1A8ED1E6008B2962 /* Viviana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Viviana.jpg; sourceTree = "<group>"; };
+		A5C5BA0C1A8ED1E6008B2962 /* Woz-Head-Shot2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Woz-Head-Shot2.jpg"; sourceTree = "<group>"; };
+		A5C8A5AE1A8F368600DB0A98 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A5CF1B171A8F268D0018768A /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5A0B0A71A745292006914E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A0B0BE1A745293006914E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5216A841A76EBFF0037DCFC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A5C5B9F71A8ED1E6008B2962 /* speakers */,
+				A5216A851A76EF6B0037DCFC /* music.png */,
+				A5216A861A76EF6B0037DCFC /* speaker.png */,
+				A5216A801A76E8A00037DCFC /* about.png */,
+				A5216A7E1A76E8630037DCFC /* speakers.png */,
+				A5AB69181A75540900DDD1C1 /* logo.png */,
+				A522EC6F1A74EFF000369947 /* home.png */,
+				A522EC721A74EFF000369947 /* timeline.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		A5A0B0A11A745292006914E1 = {
+			isa = PBXGroup;
+			children = (
+				A530EC871A8F292E00FAEE55 /* Default-568h@2x.png */,
+				A5A0B0AC1A745293006914E1 /* TEDxBerkeley */,
+				A5A0B0C41A745293006914E1 /* TEDxBerkeleyTests */,
+				A5A0B0AB1A745293006914E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5A0B0AB1A745293006914E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A0B0AA1A745293006914E1 /* TEDxBerkeley.app */,
+				A5A0B0C11A745293006914E1 /* TEDxBerkeleyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A0B0AC1A745293006914E1 /* TEDxBerkeley */ = {
+			isa = PBXGroup;
+			children = (
+				A5A0B0AF1A745293006914E1 /* AppDelegate.swift */,
+				A5A0B0B11A745293006914E1 /* FirstViewController.swift */,
+				A59BA6831A745CC400CB5034 /* SpeakersTableViewController.swift */,
+				A5CF1B171A8F268D0018768A /* Data.swift */,
+				A55A105A1A8ECBA7001E28E5 /* DetailViewController.swift */,
+				A59BA6851A745CD500CB5034 /* TimelineTableViewController.swift */,
+				A511DB701A7DBFB5009012BC /* AboutViewController.swift */,
+				A568370C1A8D14DB00E71EA9 /* Main.storyboard */,
+				A5C8A5AE1A8F368600DB0A98 /* MainTabBarController.swift */,
+				A5A0B0BA1A745293006914E1 /* LaunchScreen.xib */,
+				A5A0B0AD1A745293006914E1 /* Supporting Files */,
+				A5A0B0B81A745293006914E1 /* Images.xcassets */,
+				A5216A841A76EBFF0037DCFC /* images */,
+			);
+			name = TEDxBerkeley;
+			path = iOSApp;
+			sourceTree = "<group>";
+		};
+		A5A0B0AD1A745293006914E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5A0B0AE1A745293006914E1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5A0B0C41A745293006914E1 /* TEDxBerkeleyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5A0B0C71A745293006914E1 /* TEDxBerkeleyTests.swift */,
+				A5A0B0C51A745293006914E1 /* Supporting Files */,
+			);
+			name = TEDxBerkeleyTests;
+			path = iOSAppTests;
+			sourceTree = "<group>";
+		};
+		A5A0B0C51A745293006914E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5A0B0C61A745293006914E1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5C5B9F71A8ED1E6008B2962 /* speakers */ = {
+			isa = PBXGroup;
+			children = (
+				A5C5B9F81A8ED1E6008B2962 /* 10965404_1615056408716561_1849825701_n1.jpg */,
+				A5C5B9F91A8ED1E6008B2962 /* 120619-Meera-02.jpg */,
+				A5C5B9FA1A8ED1E6008B2962 /* Carolyn-Gable1-e1410055772849.jpg */,
+				A5C5B9FB1A8ED1E6008B2962 /* DanGarciaUCBFacultyTEDxBerkeley5.jpg */,
+				A5C5B9FC1A8ED1E6008B2962 /* DanVieder.jpg */,
+				A5C5B9FD1A8ED1E6008B2962 /* DR.-Victoria-KISYOMBE.jpg */,
+				A5C5B9FE1A8ED1E6008B2962 /* Eric-Gimenez285x335.jpg */,
+				A5C5B9FF1A8ED1E6008B2962 /* Eric-Rasmussen-Head-shot-12.jpg */,
+				A5C5BA001A8ED1E6008B2962 /* good_emily_levine.jpg */,
+				A5C5BA011A8ED1E6008B2962 /* headshot.jpg */,
+				A5C5BA021A8ED1E6008B2962 /* IMG_3292.jpg */,
+				A5C5BA031A8ED1E6008B2962 /* MarcGopin.jpg */,
+				A5C5BA041A8ED1E6008B2962 /* Meyer2.jpg */,
+				A5C5BA051A8ED1E6008B2962 /* Mike-Robbins-headshot1.jpg */,
+				A5C5BA061A8ED1E6008B2962 /* pkaipa12-2-large-e1381879857450.jpg */,
+				A5C5BA071A8ED1E6008B2962 /* RSarpong_TEDX_2015_21.jpg */,
+				A5C5BA081A8ED1E6008B2962 /* SABs-profile-picture1.jpg */,
+				A5C5BA091A8ED1E6008B2962 /* taiko.jpg */,
+				A5C5BA0A1A8ED1E6008B2962 /* Valerie-Joi-Photo.jpg */,
+				A5C5BA0B1A8ED1E6008B2962 /* Viviana.jpg */,
+				A5C5BA0C1A8ED1E6008B2962 /* Woz-Head-Shot2.jpg */,
+			);
+			name = speakers;
+			path = images/speakers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5A0B0A91A745292006914E1 /* TEDxBerkeley */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A0B0CB1A745293006914E1 /* Build configuration list for PBXNativeTarget "TEDxBerkeley" */;
+			buildPhases = (
+				A5A0B0A61A745292006914E1 /* Sources */,
+				A5A0B0A71A745292006914E1 /* Frameworks */,
+				A5A0B0A81A745292006914E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TEDxBerkeley;
+			productName = iOSApp;
+			productReference = A5A0B0AA1A745293006914E1 /* TEDxBerkeley.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5A0B0C01A745293006914E1 /* TEDxBerkeleyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A0B0CE1A745293006914E1 /* Build configuration list for PBXNativeTarget "TEDxBerkeleyTests" */;
+			buildPhases = (
+				A5A0B0BD1A745293006914E1 /* Sources */,
+				A5A0B0BE1A745293006914E1 /* Frameworks */,
+				A5A0B0BF1A745293006914E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A0B0C31A745293006914E1 /* PBXTargetDependency */,
+			);
+			name = TEDxBerkeleyTests;
+			productName = iOSAppTests;
+			productReference = A5A0B0C11A745293006914E1 /* TEDxBerkeleyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5A0B0A21A745292006914E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = TExBerkeley;
+				TargetAttributes = {
+					A5A0B0A91A745292006914E1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 74KM374FP9;
+					};
+					A5A0B0C01A745293006914E1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A5A0B0A91A745292006914E1;
+					};
+				};
+			};
+			buildConfigurationList = A5A0B0A51A745292006914E1 /* Build configuration list for PBXProject "TEDxBerkeley" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5A0B0A11A745292006914E1;
+			productRefGroup = A5A0B0AB1A745293006914E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5A0B0A91A745292006914E1 /* TEDxBerkeley */,
+				A5A0B0C01A745293006914E1 /* TEDxBerkeleyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5A0B0A81A745292006914E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AB69191A75540900DDD1C1 /* logo.png in Resources */,
+				A5C5BA1E1A8ED1E6008B2962 /* taiko.jpg in Resources */,
+				A5C5BA1C1A8ED1E6008B2962 /* RSarpong_TEDX_2015_21.jpg in Resources */,
+				A522EC761A74EFF000369947 /* timeline.png in Resources */,
+				A5C5BA151A8ED1E6008B2962 /* good_emily_levine.jpg in Resources */,
+				A5C5BA181A8ED1E6008B2962 /* MarcGopin.jpg in Resources */,
+				A5216A811A76E8A00037DCFC /* about.png in Resources */,
+				A522EC731A74EFF000369947 /* home.png in Resources */,
+				A5C5BA171A8ED1E6008B2962 /* IMG_3292.jpg in Resources */,
+				A5C5BA101A8ED1E6008B2962 /* DanGarciaUCBFacultyTEDxBerkeley5.jpg in Resources */,
+				A5C5BA0F1A8ED1E6008B2962 /* Carolyn-Gable1-e1410055772849.jpg in Resources */,
+				A5216A871A76EF6B0037DCFC /* music.png in Resources */,
+				A568370E1A8D14DB00E71EA9 /* Main.storyboard in Resources */,
+				A5C5BA0D1A8ED1E6008B2962 /* 10965404_1615056408716561_1849825701_n1.jpg in Resources */,
+				A5C5BA201A8ED1E6008B2962 /* Viviana.jpg in Resources */,
+				A5A0B0BC1A745293006914E1 /* LaunchScreen.xib in Resources */,
+				A5216A7F1A76E8630037DCFC /* speakers.png in Resources */,
+				A5C5BA131A8ED1E6008B2962 /* Eric-Gimenez285x335.jpg in Resources */,
+				A5C5BA141A8ED1E6008B2962 /* Eric-Rasmussen-Head-shot-12.jpg in Resources */,
+				A5C5BA1D1A8ED1E6008B2962 /* SABs-profile-picture1.jpg in Resources */,
+				A5A0B0B91A745293006914E1 /* Images.xcassets in Resources */,
+				A5C5BA121A8ED1E6008B2962 /* DR.-Victoria-KISYOMBE.jpg in Resources */,
+				A530EC881A8F292E00FAEE55 /* Default-568h@2x.png in Resources */,
+				A5C5BA0E1A8ED1E6008B2962 /* 120619-Meera-02.jpg in Resources */,
+				A5C5BA1B1A8ED1E6008B2962 /* pkaipa12-2-large-e1381879857450.jpg in Resources */,
+				A5C5BA1F1A8ED1E6008B2962 /* Valerie-Joi-Photo.jpg in Resources */,
+				A5C5BA111A8ED1E6008B2962 /* DanVieder.jpg in Resources */,
+				A5C5BA1A1A8ED1E6008B2962 /* Mike-Robbins-headshot1.jpg in Resources */,
+				A5C5BA191A8ED1E6008B2962 /* Meyer2.jpg in Resources */,
+				A5C5BA211A8ED1E6008B2962 /* Woz-Head-Shot2.jpg in Resources */,
+				A5216A881A76EF6B0037DCFC /* speaker.png in Resources */,
+				A5C5BA161A8ED1E6008B2962 /* headshot.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A0B0BF1A745293006914E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5A0B0A61A745292006914E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A511DB711A7DBFB5009012BC /* AboutViewController.swift in Sources */,
+				A59BA6841A745CC400CB5034 /* SpeakersTableViewController.swift in Sources */,
+				A5C8A5AF1A8F368600DB0A98 /* MainTabBarController.swift in Sources */,
+				A5A0B0B01A745293006914E1 /* AppDelegate.swift in Sources */,
+				A55A105B1A8ECBA7001E28E5 /* DetailViewController.swift in Sources */,
+				A5CF1B181A8F268D0018768A /* Data.swift in Sources */,
+				A59BA6861A745CD500CB5034 /* TimelineTableViewController.swift in Sources */,
+				A5A0B0B21A745293006914E1 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A0B0BD1A745293006914E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A0B0C81A745293006914E1 /* TEDxBerkeleyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5A0B0C31A745293006914E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5A0B0A91A745292006914E1 /* TEDxBerkeley */;
+			targetProxy = A5A0B0C21A745293006914E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A568370C1A8D14DB00E71EA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A568370D1A8D14DB00E71EA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5A0B0BA1A745293006914E1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A0B0BB1A745293006914E1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5A0B0C91A745293006914E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alvin Wan Wan (7EK8NU8KF5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alvin Wan Wan (7EK8NU8KF5)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A5A0B0CA1A745293006914E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Alvin Wan Wan (74KM374FP9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Alvin Wan Wan (74KM374FP9)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5A0B0CC1A745293006914E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alvin Wan Wan (7EK8NU8KF5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alvin Wan Wan (7EK8NU8KF5)";
+				INFOPLIST_FILE = iOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.TEDxBerkeley.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TEDxBerkeley;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A5A0B0CD1A745293006914E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Alvin Wan Wan (74KM374FP9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Alvin Wan Wan (74KM374FP9)";
+				INFOPLIST_FILE = iOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.TEDxBerkeley.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TEDxBerkeley;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A5A0B0CF1A745293006914E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TeDxBerkeley.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TEDxBerkeleyTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TEDxBerkeley.app/TEDxBerkeley";
+			};
+			name = Debug;
+		};
+		A5A0B0D01A745293006914E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TeDxBerkeley.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TEDxBerkeleyTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TEDxBerkeley.app/TEDxBerkeley";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5A0B0A51A745292006914E1 /* Build configuration list for PBXProject "TEDxBerkeley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A0B0C91A745293006914E1 /* Debug */,
+				A5A0B0CA1A745293006914E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A0B0CB1A745293006914E1 /* Build configuration list for PBXNativeTarget "TEDxBerkeley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A0B0CC1A745293006914E1 /* Debug */,
+				A5A0B0CD1A745293006914E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A0B0CE1A745293006914E1 /* Build configuration list for PBXNativeTarget "TEDxBerkeleyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A0B0CF1A745293006914E1 /* Debug */,
+				A5A0B0D01A745293006914E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5A0B0A21A745292006914E1 /* Project object */;
+}
