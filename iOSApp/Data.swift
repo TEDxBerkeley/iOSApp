@@ -16,16 +16,17 @@ var names = [
     "Rob Hotchkiss",
     "Naveen Jain",
     "Jeromy Johnson",
-    "Reverend Debra Johnson",
+    "Reverend Deborah Johnson",
     "Aran Khanna",
     "John Koenig",
     "Ellen Leanse",
     "Dr. Susan Lim",
-    "OSA Chamber Choir",
+    "Oakland School for the Arts Chamber Choir",
     "Amandine Roche",
     "Dr. Sriram Shamasunder",
     "Dr. Andrew Siemion",
-    "Joshua Toch"
+    "Joshua Toch",
+    "UC Berkeley Azaad"
 ]
 
 var bylines = [
@@ -45,7 +46,8 @@ var bylines = [
     "Human Rights Expert",
     "Co-Founder HEAL Initiative",
     "Astrophysicist",
-    "Founder, Mind Before Mouth"
+    "Founder, Mind Before Mouth",
+    ""
 ]
 
 var bios = [
@@ -65,7 +67,8 @@ var bios = [
     "Working with the United Nations, UNICEF, UNDP, UNESCO, UN WOMEN for over fifteen years, in Asia’s, Africa’s, Europe’s and South America’s fluid conflict contexts, Amandine Roche is a Human Right expert with a focus on civic education, democratization, gender and youth empowerment. She participated in twenty democratic processes around the world but mainly in Afghanistan for the last decade. After the kidnapping and assassination of her colleagues, Amandine was evacuated from Kabul. She recovered and found her inner peace in India where she became yoga and meditation teacher. While she focused on her own self healing, she realized that the practice of non-violence was not the only way for her to achieve a harmonious life, but it was also the only way for Afghanistan and the whole world. She returned to Kabul to create the Amanuddin Foundation in order to promote the culture of peace and non-violence in Afghanistan.",
     "Sriram Shamasunder completed his residency in Internal Medicine at Harbor UCLA Medical Center and is currently an Academic Hospitalist at UCSF.  Sri is interested in the delivery of comprehensive health care in resource poor settings.  He has spent the last 10 years working several months a year in Burundi, Haiti, Rwanda and India. He is co-founder of HEAL initiative, which aims to support workforce capacity in limited resource settings, both in the United States and internationally.  He was awarded the Young Physician of the Year in 2010, by the Northern California Chapter of the American College of Physicians, and is a past Fulbright Scholar.  He is interested in health equity and narrative equity, working towards a world where lives are of equal value both the health care we deliver and the stories we highlight.",
     "Dr. Andrew Siemion is an astrophysicist at the University of California (UC), Berkeley and serves as Director of the UC Berkeley Center for Search for Extraterrestrial Intelligence (SETI) Research. He is jointly affiliated with The Netherlands Institute for Radio Astronomy (ASTRON) and Radboud University, Nijmegen, Netherlands. Dr. Siemion’s research interests include studies of time-variable celestial phenomena, astronomical instrumentation and SETI. Dr. Siemion is one of the leaders of the “Breakthrough Listen Initiative” – a 10 year, 100 million dollar effort, sponsored by Yuri Milner’s Breakthrough Prize Foundation, that is conducting the most sensitive search for advanced extraterrestrial life in history. Dr. Siemion frequently appears on international television and radio discussing the search for life beyond on Earth and the prospects for detection.",
-    "As part of the class of 2018 at the University of California, Berkeley, Joshua Toch plans to pursue a degree in Business Administration at the Haas School of Business and a minor in industrial engineering. At the age of 15 Toch started to take a stance against bullying in his own community by speaking up about his personal experiences of getting bullied because of his disability, Cerebral Palsy. Through witnessing the impact of his activism, Toch along with a team of other young entrepreneurial innovators, founded an organization by the name of Mind Before Mouth that equips students to better deal with the social aspects of life. MBM is a not-for-profit organization that goes into schools, clubs and organizations, in order to shed light on the fact that we all go through adversities in life and by working together we can strategically get through times of hardship. TedxBerkeley will be Toch’s second appearance on the Tedx stage, his first one being May of 2015 at TedxUCDavisSF. Toch has received many awards for his work, some of which are the 2014 Morgan Hill Chamber of Commerce Student of the Year and the 2014 Diller Teen Tikkun Olam Award. As a result of these achievements Toch has been featured in many news outlets and is also part of Patricia Wooster’s upcoming book, “So You Want to Be A Leader?” in 2016."
+    "As part of the class of 2018 at the University of California, Berkeley, Joshua Toch plans to pursue a degree in Business Administration at the Haas School of Business and a minor in industrial engineering. At the age of 15 Toch started to take a stance against bullying in his own community by speaking up about his personal experiences of getting bullied because of his disability, Cerebral Palsy. Through witnessing the impact of his activism, Toch along with a team of other young entrepreneurial innovators, founded an organization by the name of Mind Before Mouth that equips students to better deal with the social aspects of life. MBM is a not-for-profit organization that goes into schools, clubs and organizations, in order to shed light on the fact that we all go through adversities in life and by working together we can strategically get through times of hardship. TedxBerkeley will be Toch’s second appearance on the Tedx stage, his first one being May of 2015 at TedxUCDavisSF. Toch has received many awards for his work, some of which are the 2014 Morgan Hill Chamber of Commerce Student of the Year and the 2014 Diller Teen Tikkun Olam Award. As a result of these achievements Toch has been featured in many news outlets and is also part of Patricia Wooster’s upcoming book, “So You Want to Be A Leader?” in 2016.",
+    ""
 ]
 
 var imagesSpeakers = [
