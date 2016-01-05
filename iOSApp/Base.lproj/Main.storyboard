@@ -77,236 +77,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" translatesAutoresizingMaskIntoConstraints="NO" id="Raz-O6-uxj" userLabel="scrollView">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0QG-jb-wlu" userLabel="contentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="What is TEDxBerkeley?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAc-Rh-YfG">
-                                                <rect key="frame" x="161" y="98" width="278" height="24"/>
-                                                <animations/>
-                                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="16"/>
-                                                <color key="textColor" red="0.90196078431372551" green="0.16862745098039217" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1G7-bz-hDH">
-                                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                                <animations/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Label">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineHeightMultiple="2"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                                <variation key="widthClass=compact">
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                </variation>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="About TEDx" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SiL-Z9-j4x">
-                                                <rect key="frame" x="161" y="288" width="278" height="24"/>
-                                                <animations/>
-                                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="16"/>
-                                                <color key="textColor" red="0.90196078431372551" green="0.16862745098039217" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfc-fo-E4U">
-                                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                                <animations/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Label">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineHeightMultiple="2"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                                <variation key="widthClass=compact">
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                </variation>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="About TED" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IoH-sp-tOt">
-                                                <rect key="frame" x="161" y="462" width="278" height="24"/>
-                                                <animations/>
-                                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="16"/>
-                                                <color key="textColor" red="0.90196078431372551" green="0.16862745098039217" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8kq-aO-jaw">
-                                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                                <animations/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Label">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineHeightMultiple="2"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                                <variation key="widthClass=compact">
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                </variation>
-                                            </label>
-                                        </subviews>
-                                        <animations/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstItem="1G7-bz-hDH" firstAttribute="leading" secondItem="0QG-jb-wlu" secondAttribute="leading" constant="50" id="1kF-gn-jxJ"/>
-                                            <constraint firstAttribute="height" constant="487" id="5Ro-zN-RKQ">
-                                                <variation key="widthClass=compact" constant="2000"/>
-                                            </constraint>
-                                            <constraint firstItem="YAc-Rh-YfG" firstAttribute="leading" secondItem="0QG-jb-wlu" secondAttribute="leading" constant="50" id="E7G-w6-e8P"/>
-                                            <constraint firstItem="IoH-sp-tOt" firstAttribute="leading" secondItem="0QG-jb-wlu" secondAttribute="leading" constant="50" id="HcJ-VA-fzK"/>
-                                            <constraint firstItem="SiL-Z9-j4x" firstAttribute="top" secondItem="1G7-bz-hDH" secondAttribute="bottom" constant="25" id="MkC-5o-KNJ"/>
-                                            <constraint firstAttribute="trailing" secondItem="YAc-Rh-YfG" secondAttribute="trailing" constant="50" id="QLZ-zI-fx7"/>
-                                            <constraint firstAttribute="trailing" secondItem="1G7-bz-hDH" secondAttribute="trailing" constant="50" id="Vd6-dn-OS1"/>
-                                            <constraint firstItem="Kfc-fo-E4U" firstAttribute="leading" secondItem="0QG-jb-wlu" secondAttribute="leading" constant="50" id="WES-I6-Mas"/>
-                                            <constraint firstItem="IoH-sp-tOt" firstAttribute="top" secondItem="Kfc-fo-E4U" secondAttribute="bottom" constant="28" id="brE-YW-zmz"/>
-                                            <constraint firstAttribute="trailing" secondItem="IoH-sp-tOt" secondAttribute="trailing" constant="50" id="cE0-Fn-Kx7"/>
-                                            <constraint firstItem="YAc-Rh-YfG" firstAttribute="top" secondItem="0QG-jb-wlu" secondAttribute="top" constant="28" id="kx4-0b-3Pn"/>
-                                            <constraint firstItem="1G7-bz-hDH" firstAttribute="top" secondItem="YAc-Rh-YfG" secondAttribute="bottom" constant="16" id="lUG-B0-7jR"/>
-                                            <constraint firstItem="Kfc-fo-E4U" firstAttribute="top" secondItem="SiL-Z9-j4x" secondAttribute="bottom" constant="29" id="mXH-mm-fQU"/>
-                                            <constraint firstAttribute="trailing" secondItem="SiL-Z9-j4x" secondAttribute="trailing" constant="50" id="ntq-pP-qds"/>
-                                            <constraint firstItem="SiL-Z9-j4x" firstAttribute="leading" secondItem="0QG-jb-wlu" secondAttribute="leading" constant="50" id="o13-g9-CWR"/>
-                                            <constraint firstItem="8kq-aO-jaw" firstAttribute="leading" secondItem="0QG-jb-wlu" secondAttribute="leading" constant="50" id="qfF-nS-I3c"/>
-                                            <constraint firstAttribute="trailing" secondItem="Kfc-fo-E4U" secondAttribute="trailing" constant="50" id="thv-3p-tBg"/>
-                                            <constraint firstItem="8kq-aO-jaw" firstAttribute="top" secondItem="IoH-sp-tOt" secondAttribute="bottom" constant="28" id="uIc-yr-Rsw"/>
-                                            <constraint firstAttribute="trailing" secondItem="8kq-aO-jaw" secondAttribute="trailing" constant="50" id="uf0-Tf-OYY"/>
-                                        </constraints>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="5Ro-zN-RKQ"/>
-                                                <exclude reference="1kF-gn-jxJ"/>
-                                                <exclude reference="Vd6-dn-OS1"/>
-                                                <exclude reference="lUG-B0-7jR"/>
-                                                <exclude reference="qfF-nS-I3c"/>
-                                                <exclude reference="uIc-yr-Rsw"/>
-                                                <exclude reference="uf0-Tf-OYY"/>
-                                                <exclude reference="WES-I6-Mas"/>
-                                                <exclude reference="mXH-mm-fQU"/>
-                                                <exclude reference="thv-3p-tBg"/>
-                                                <exclude reference="E7G-w6-e8P"/>
-                                                <exclude reference="QLZ-zI-fx7"/>
-                                                <exclude reference="kx4-0b-3Pn"/>
-                                                <exclude reference="MkC-5o-KNJ"/>
-                                                <exclude reference="ntq-pP-qds"/>
-                                                <exclude reference="o13-g9-CWR"/>
-                                                <exclude reference="HcJ-VA-fzK"/>
-                                                <exclude reference="brE-YW-zmz"/>
-                                                <exclude reference="cE0-Fn-Kx7"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="widthClass=compact">
-                                            <mask key="subviews">
-                                                <include reference="YAc-Rh-YfG"/>
-                                                <include reference="1G7-bz-hDH"/>
-                                                <include reference="SiL-Z9-j4x"/>
-                                                <include reference="Kfc-fo-E4U"/>
-                                                <include reference="IoH-sp-tOt"/>
-                                                <include reference="8kq-aO-jaw"/>
-                                            </mask>
-                                            <mask key="constraints">
-                                                <include reference="5Ro-zN-RKQ"/>
-                                                <include reference="1kF-gn-jxJ"/>
-                                                <include reference="Vd6-dn-OS1"/>
-                                                <include reference="lUG-B0-7jR"/>
-                                                <include reference="qfF-nS-I3c"/>
-                                                <include reference="uIc-yr-Rsw"/>
-                                                <include reference="uf0-Tf-OYY"/>
-                                                <include reference="WES-I6-Mas"/>
-                                                <include reference="mXH-mm-fQU"/>
-                                                <include reference="thv-3p-tBg"/>
-                                                <include reference="E7G-w6-e8P"/>
-                                                <include reference="QLZ-zI-fx7"/>
-                                                <include reference="kx4-0b-3Pn"/>
-                                                <include reference="MkC-5o-KNJ"/>
-                                                <include reference="ntq-pP-qds"/>
-                                                <include reference="o13-g9-CWR"/>
-                                                <include reference="HcJ-VA-fzK"/>
-                                                <include reference="brE-YW-zmz"/>
-                                                <include reference="cE0-Fn-Kx7"/>
-                                            </mask>
-                                        </variation>
-                                    </view>
-                                </subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GGm-J2-7wh">
+                                <rect key="frame" x="20" y="72" width="560" height="479"/>
                                 <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="0QG-jb-wlu" secondAttribute="trailing" id="ORV-0V-fNz"/>
-                                    <constraint firstItem="0QG-jb-wlu" firstAttribute="top" secondItem="Raz-O6-uxj" secondAttribute="top" id="Vto-WM-aHq"/>
-                                    <constraint firstAttribute="bottom" secondItem="0QG-jb-wlu" secondAttribute="bottom" id="d3s-mM-kLO"/>
-                                    <constraint firstItem="0QG-jb-wlu" firstAttribute="leading" secondItem="Raz-O6-uxj" secondAttribute="leading" id="zbc-gs-u8S"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="ORV-0V-fNz"/>
-                                        <exclude reference="Vto-WM-aHq"/>
-                                        <exclude reference="d3s-mM-kLO"/>
-                                        <exclude reference="zbc-gs-u8S"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact">
-                                    <mask key="subviews">
-                                        <include reference="0QG-jb-wlu"/>
-                                    </mask>
-                                    <mask key="constraints">
-                                        <include reference="ORV-0V-fNz"/>
-                                        <include reference="Vto-WM-aHq"/>
-                                        <include reference="d3s-mM-kLO"/>
-                                        <include reference="zbc-gs-u8S"/>
-                                    </mask>
-                                </variation>
-                                <connections>
-                                    <outlet property="delegate" destination="qCi-G7-EDh" id="SbN-wT-vMp"/>
-                                </connections>
-                            </scrollView>
+                                <mutableString key="text">On February 6, 2016 TEDxBerkeley is gathering world-leading thinkers, makers, and doers at UC Berkeley to discuss “Finding X”. The audience will be composed of a diverse mix of over 1500 students, professors, and thought leaders from Berkeley and beyond for a stimulating day of presentations, discussions, entertainment and art that will spark new ideas and opportunities for all.
+In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized. (Subject to certain rules and regulations.)
+TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 25 years ago, TED has grown to support those world-changing ideas with multiple initiatives. The annual TED Conference invites the world’s leading thinkers and doers to speak for 18 minutes. Their talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Al Gore, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Nandan Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Isabel Allende and former UK Prime Minister Gordon Brown. The annual TED Conference takes place each spring in Long Beach, California, along with the TEDActive simulcast in Palm Springs; the annual TEDGlobal conference is held each summer in Edinburgh, Scotland. TED’s media initiatives include TED.com, where new TEDTalks are posted daily, the recently launched TED-Ed platform for students and educators, the Open Translation Project, which provides subtitles and interactive transcripts as well as the ability for any TEDTalk to be translated by volunteers worldwide, and TEDBooks, short e-books by speakers that elaborate on a single idea originally presented on TED’s stage. TED has established the annual TED Prize, where exceptional individuals with a wish to change the world are given the opportunity to put their wishes into action; TEDx, which offers individuals or groups a way to host local, self-organized events around the world, and the TED Fellows program, helping world-changing innovators from around the globe to become part of the TED community and, with its help, amplify the impact of their remarkable projects and activities. Follow TED on Twitter or on Facebook. Follow TED on Twitter at twitter.com/TEDTalks, or on Facebook at facebook.com/TED.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Raz-O6-uxj" firstAttribute="top" secondItem="0cQ-8h-LrJ" secondAttribute="top" constant="64" id="2zB-Ra-7KR"/>
-                            <constraint firstItem="Raz-O6-uxj" firstAttribute="leading" secondItem="0cQ-8h-LrJ" secondAttribute="leading" id="CKC-0Z-chJ"/>
-                            <constraint firstAttribute="width" secondItem="Raz-O6-uxj" secondAttribute="width" id="LZ0-le-rGR"/>
-                            <constraint firstAttribute="bottom" secondItem="Raz-O6-uxj" secondAttribute="bottom" constant="49" id="dmJ-yN-ih9"/>
-                            <constraint firstAttribute="trailing" secondItem="Raz-O6-uxj" secondAttribute="trailing" id="mZG-EV-WSz"/>
+                            <constraint firstItem="GGm-J2-7wh" firstAttribute="trailing" secondItem="0cQ-8h-LrJ" secondAttribute="trailingMargin" constant="20" id="OBX-Xy-FXx"/>
+                            <constraint firstItem="GGm-J2-7wh" firstAttribute="leading" secondItem="0cQ-8h-LrJ" secondAttribute="leadingMargin" constant="20" id="cc6-f8-jiS"/>
+                            <constraint firstItem="BCe-FB-1AR" firstAttribute="top" secondItem="GGm-J2-7wh" secondAttribute="bottom" id="rfB-Wa-1fN"/>
+                            <constraint firstItem="GGm-J2-7wh" firstAttribute="top" secondItem="4em-Bj-Ku1" secondAttribute="bottom" constant="10" id="uWU-SH-vSY"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="2zB-Ra-7KR"/>
-                                <exclude reference="CKC-0Z-chJ"/>
-                                <exclude reference="LZ0-le-rGR"/>
-                                <exclude reference="dmJ-yN-ih9"/>
-                                <exclude reference="mZG-EV-WSz"/>
-                            </mask>
-                        </variation>
-                        <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="Raz-O6-uxj"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="2zB-Ra-7KR"/>
-                                <include reference="CKC-0Z-chJ"/>
-                                <include reference="LZ0-le-rGR"/>
-                                <include reference="dmJ-yN-ih9"/>
-                                <include reference="mZG-EV-WSz"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="About" id="HQG-bs-8Tb"/>
-                    <connections>
-                        <outlet property="TED" destination="8kq-aO-jaw" id="4UJ-QG-26W"/>
-                        <outlet property="TEDx" destination="Kfc-fo-E4U" id="RwH-Tw-ytg"/>
-                        <outlet property="TEDxBerkeley" destination="1G7-bz-hDH" id="kzp-Ox-FsK"/>
-                        <outlet property="contentView" destination="0QG-jb-wlu" id="KvF-Mi-qnl"/>
-                        <outlet property="scrollView" destination="Raz-O6-uxj" id="hxP-I8-P5j"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Xn-iS-6ek" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
