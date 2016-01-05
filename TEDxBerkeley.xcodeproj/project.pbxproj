@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A50705471C3B71E100F76E34 /* AmandineRoche.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A50705361C3B71E100F76E34 /* AmandineRoche.jpg */; settings = {ASSET_TAGS = (); }; };
+		A50705481C3B71E100F76E34 /* AranKhanna.png in Resources */ = {isa = PBXBuildFile; fileRef = A50705371C3B71E100F76E34 /* AranKhanna.png */; settings = {ASSET_TAGS = (); }; };
+		A50705491C3B71E100F76E34 /* ChristopherAtegeka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A50705381C3B71E100F76E34 /* ChristopherAtegeka.jpg */; settings = {ASSET_TAGS = (); }; };
+		A507054A1C3B71E100F76E34 /* DrAndrewSiemeon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A50705391C3B71E100F76E34 /* DrAndrewSiemeon.jpg */; settings = {ASSET_TAGS = (); }; };
+		A507054B1C3B71E100F76E34 /* DrSriramShamasunder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A507053A1C3B71E100F76E34 /* DrSriramShamasunder.jpg */; settings = {ASSET_TAGS = (); }; };
+		A507054C1C3B71E100F76E34 /* DrSusanLim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A507053B1C3B71E100F76E34 /* DrSusanLim.jpg */; settings = {ASSET_TAGS = (); }; };
+		A507054D1C3B71E100F76E34 /* EllenLeanse.png in Resources */ = {isa = PBXBuildFile; fileRef = A507053C1C3B71E100F76E34 /* EllenLeanse.png */; settings = {ASSET_TAGS = (); }; };
+		A507054E1C3B71E100F76E34 /* JacobCorn.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A507053D1C3B71E100F76E34 /* JacobCorn.jpeg */; settings = {ASSET_TAGS = (); }; };
+		A507054F1C3B71E100F76E34 /* JeromyJohnson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A507053E1C3B71E100F76E34 /* JeromyJohnson.jpg */; settings = {ASSET_TAGS = (); }; };
+		A50705501C3B71E100F76E34 /* JohnKoenig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A507053F1C3B71E100F76E34 /* JohnKoenig.jpg */; settings = {ASSET_TAGS = (); }; };
+		A50705511C3B71E100F76E34 /* JoshuaToch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A50705401C3B71E100F76E34 /* JoshuaToch.jpg */; settings = {ASSET_TAGS = (); }; };
+		A50705521C3B71E100F76E34 /* KathyCalvin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A50705411C3B71E100F76E34 /* KathyCalvin.jpeg */; settings = {ASSET_TAGS = (); }; };
+		A50705531C3B71E100F76E34 /* NaveenJain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A50705421C3B71E100F76E34 /* NaveenJain.jpg */; settings = {ASSET_TAGS = (); }; };
+		A50705541C3B71E100F76E34 /* OSAChamberChoir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A50705431C3B71E100F76E34 /* OSAChamberChoir.jpg */; settings = {ASSET_TAGS = (); }; };
+		A50705551C3B71E100F76E34 /* ReverendDebraJohnson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A50705441C3B71E100F76E34 /* ReverendDebraJohnson.jpg */; settings = {ASSET_TAGS = (); }; };
+		A50705561C3B71E100F76E34 /* RobHotchkiss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A50705451C3B71E100F76E34 /* RobHotchkiss.jpg */; settings = {ASSET_TAGS = (); }; };
+		A50705571C3B71E100F76E34 /* StephanieFreid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A50705461C3B71E100F76E34 /* StephanieFreid.jpg */; settings = {ASSET_TAGS = (); }; };
 		A511DB711A7DBFB5009012BC /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511DB701A7DBFB5009012BC /* AboutViewController.swift */; };
 		A5216A7F1A76E8630037DCFC /* speakers.png in Resources */ = {isa = PBXBuildFile; fileRef = A5216A7E1A76E8630037DCFC /* speakers.png */; };
 		A5216A811A76E8A00037DCFC /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = A5216A801A76E8A00037DCFC /* about.png */; };
@@ -25,27 +42,6 @@
 		A5A0B0BC1A745293006914E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A0B0BA1A745293006914E1 /* LaunchScreen.xib */; };
 		A5A0B0C81A745293006914E1 /* TEDxBerkeleyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0B0C71A745293006914E1 /* TEDxBerkeleyTests.swift */; };
 		A5AB69191A75540900DDD1C1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AB69181A75540900DDD1C1 /* logo.png */; };
-		A5C5BA0D1A8ED1E6008B2962 /* 10965404_1615056408716561_1849825701_n1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B9F81A8ED1E6008B2962 /* 10965404_1615056408716561_1849825701_n1.jpg */; };
-		A5C5BA0E1A8ED1E6008B2962 /* 120619-Meera-02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B9F91A8ED1E6008B2962 /* 120619-Meera-02.jpg */; };
-		A5C5BA0F1A8ED1E6008B2962 /* Carolyn-Gable1-e1410055772849.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B9FA1A8ED1E6008B2962 /* Carolyn-Gable1-e1410055772849.jpg */; };
-		A5C5BA101A8ED1E6008B2962 /* DanGarciaUCBFacultyTEDxBerkeley5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B9FB1A8ED1E6008B2962 /* DanGarciaUCBFacultyTEDxBerkeley5.jpg */; };
-		A5C5BA111A8ED1E6008B2962 /* DanVieder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B9FC1A8ED1E6008B2962 /* DanVieder.jpg */; };
-		A5C5BA121A8ED1E6008B2962 /* DR.-Victoria-KISYOMBE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B9FD1A8ED1E6008B2962 /* DR.-Victoria-KISYOMBE.jpg */; };
-		A5C5BA131A8ED1E6008B2962 /* Eric-Gimenez285x335.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B9FE1A8ED1E6008B2962 /* Eric-Gimenez285x335.jpg */; };
-		A5C5BA141A8ED1E6008B2962 /* Eric-Rasmussen-Head-shot-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B9FF1A8ED1E6008B2962 /* Eric-Rasmussen-Head-shot-12.jpg */; };
-		A5C5BA151A8ED1E6008B2962 /* good_emily_levine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA001A8ED1E6008B2962 /* good_emily_levine.jpg */; };
-		A5C5BA161A8ED1E6008B2962 /* headshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA011A8ED1E6008B2962 /* headshot.jpg */; };
-		A5C5BA171A8ED1E6008B2962 /* IMG_3292.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA021A8ED1E6008B2962 /* IMG_3292.jpg */; };
-		A5C5BA181A8ED1E6008B2962 /* MarcGopin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA031A8ED1E6008B2962 /* MarcGopin.jpg */; };
-		A5C5BA191A8ED1E6008B2962 /* Meyer2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA041A8ED1E6008B2962 /* Meyer2.jpg */; };
-		A5C5BA1A1A8ED1E6008B2962 /* Mike-Robbins-headshot1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA051A8ED1E6008B2962 /* Mike-Robbins-headshot1.jpg */; };
-		A5C5BA1B1A8ED1E6008B2962 /* pkaipa12-2-large-e1381879857450.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA061A8ED1E6008B2962 /* pkaipa12-2-large-e1381879857450.jpg */; };
-		A5C5BA1C1A8ED1E6008B2962 /* RSarpong_TEDX_2015_21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA071A8ED1E6008B2962 /* RSarpong_TEDX_2015_21.jpg */; };
-		A5C5BA1D1A8ED1E6008B2962 /* SABs-profile-picture1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA081A8ED1E6008B2962 /* SABs-profile-picture1.jpg */; };
-		A5C5BA1E1A8ED1E6008B2962 /* taiko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA091A8ED1E6008B2962 /* taiko.jpg */; };
-		A5C5BA1F1A8ED1E6008B2962 /* Valerie-Joi-Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA0A1A8ED1E6008B2962 /* Valerie-Joi-Photo.jpg */; };
-		A5C5BA201A8ED1E6008B2962 /* Viviana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA0B1A8ED1E6008B2962 /* Viviana.jpg */; };
-		A5C5BA211A8ED1E6008B2962 /* Woz-Head-Shot2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BA0C1A8ED1E6008B2962 /* Woz-Head-Shot2.jpg */; };
 		A5C8A5AF1A8F368600DB0A98 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8A5AE1A8F368600DB0A98 /* MainTabBarController.swift */; };
 		A5CF1B181A8F268D0018768A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF1B171A8F268D0018768A /* Data.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +57,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A50705361C3B71E100F76E34 /* AmandineRoche.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AmandineRoche.jpg; sourceTree = "<group>"; };
+		A50705371C3B71E100F76E34 /* AranKhanna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AranKhanna.png; sourceTree = "<group>"; };
+		A50705381C3B71E100F76E34 /* ChristopherAtegeka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChristopherAtegeka.jpg; sourceTree = "<group>"; };
+		A50705391C3B71E100F76E34 /* DrAndrewSiemeon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DrAndrewSiemeon.jpg; sourceTree = "<group>"; };
+		A507053A1C3B71E100F76E34 /* DrSriramShamasunder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DrSriramShamasunder.jpg; sourceTree = "<group>"; };
+		A507053B1C3B71E100F76E34 /* DrSusanLim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DrSusanLim.jpg; sourceTree = "<group>"; };
+		A507053C1C3B71E100F76E34 /* EllenLeanse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EllenLeanse.png; sourceTree = "<group>"; };
+		A507053D1C3B71E100F76E34 /* JacobCorn.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JacobCorn.jpeg; sourceTree = "<group>"; };
+		A507053E1C3B71E100F76E34 /* JeromyJohnson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JeromyJohnson.jpg; sourceTree = "<group>"; };
+		A507053F1C3B71E100F76E34 /* JohnKoenig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JohnKoenig.jpg; sourceTree = "<group>"; };
+		A50705401C3B71E100F76E34 /* JoshuaToch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JoshuaToch.jpg; sourceTree = "<group>"; };
+		A50705411C3B71E100F76E34 /* KathyCalvin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KathyCalvin.jpeg; sourceTree = "<group>"; };
+		A50705421C3B71E100F76E34 /* NaveenJain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NaveenJain.jpg; sourceTree = "<group>"; };
+		A50705431C3B71E100F76E34 /* OSAChamberChoir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OSAChamberChoir.jpg; sourceTree = "<group>"; };
+		A50705441C3B71E100F76E34 /* ReverendDebraJohnson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ReverendDebraJohnson.jpg; sourceTree = "<group>"; };
+		A50705451C3B71E100F76E34 /* RobHotchkiss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RobHotchkiss.jpg; sourceTree = "<group>"; };
+		A50705461C3B71E100F76E34 /* StephanieFreid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StephanieFreid.jpg; sourceTree = "<group>"; };
 		A511DB701A7DBFB5009012BC /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		A5216A7E1A76E8630037DCFC /* speakers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speakers.png; path = images/speakers.png; sourceTree = "<group>"; };
 		A5216A801A76E8A00037DCFC /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = about.png; path = images/about.png; sourceTree = "<group>"; };
@@ -83,27 +96,6 @@
 		A5A0B0C61A745293006914E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5A0B0C71A745293006914E1 /* TEDxBerkeleyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEDxBerkeleyTests.swift; sourceTree = "<group>"; };
 		A5AB69181A75540900DDD1C1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
-		A5C5B9F81A8ED1E6008B2962 /* 10965404_1615056408716561_1849825701_n1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10965404_1615056408716561_1849825701_n1.jpg; sourceTree = "<group>"; };
-		A5C5B9F91A8ED1E6008B2962 /* 120619-Meera-02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "120619-Meera-02.jpg"; sourceTree = "<group>"; };
-		A5C5B9FA1A8ED1E6008B2962 /* Carolyn-Gable1-e1410055772849.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Carolyn-Gable1-e1410055772849.jpg"; sourceTree = "<group>"; };
-		A5C5B9FB1A8ED1E6008B2962 /* DanGarciaUCBFacultyTEDxBerkeley5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DanGarciaUCBFacultyTEDxBerkeley5.jpg; sourceTree = "<group>"; };
-		A5C5B9FC1A8ED1E6008B2962 /* DanVieder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DanVieder.jpg; sourceTree = "<group>"; };
-		A5C5B9FD1A8ED1E6008B2962 /* DR.-Victoria-KISYOMBE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DR.-Victoria-KISYOMBE.jpg"; sourceTree = "<group>"; };
-		A5C5B9FE1A8ED1E6008B2962 /* Eric-Gimenez285x335.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eric-Gimenez285x335.jpg"; sourceTree = "<group>"; };
-		A5C5B9FF1A8ED1E6008B2962 /* Eric-Rasmussen-Head-shot-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eric-Rasmussen-Head-shot-12.jpg"; sourceTree = "<group>"; };
-		A5C5BA001A8ED1E6008B2962 /* good_emily_levine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = good_emily_levine.jpg; sourceTree = "<group>"; };
-		A5C5BA011A8ED1E6008B2962 /* headshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headshot.jpg; sourceTree = "<group>"; };
-		A5C5BA021A8ED1E6008B2962 /* IMG_3292.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3292.jpg; sourceTree = "<group>"; };
-		A5C5BA031A8ED1E6008B2962 /* MarcGopin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MarcGopin.jpg; sourceTree = "<group>"; };
-		A5C5BA041A8ED1E6008B2962 /* Meyer2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Meyer2.jpg; sourceTree = "<group>"; };
-		A5C5BA051A8ED1E6008B2962 /* Mike-Robbins-headshot1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mike-Robbins-headshot1.jpg"; sourceTree = "<group>"; };
-		A5C5BA061A8ED1E6008B2962 /* pkaipa12-2-large-e1381879857450.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pkaipa12-2-large-e1381879857450.jpg"; sourceTree = "<group>"; };
-		A5C5BA071A8ED1E6008B2962 /* RSarpong_TEDX_2015_21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RSarpong_TEDX_2015_21.jpg; sourceTree = "<group>"; };
-		A5C5BA081A8ED1E6008B2962 /* SABs-profile-picture1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SABs-profile-picture1.jpg"; sourceTree = "<group>"; };
-		A5C5BA091A8ED1E6008B2962 /* taiko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taiko.jpg; sourceTree = "<group>"; };
-		A5C5BA0A1A8ED1E6008B2962 /* Valerie-Joi-Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Valerie-Joi-Photo.jpg"; sourceTree = "<group>"; };
-		A5C5BA0B1A8ED1E6008B2962 /* Viviana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Viviana.jpg; sourceTree = "<group>"; };
-		A5C5BA0C1A8ED1E6008B2962 /* Woz-Head-Shot2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Woz-Head-Shot2.jpg"; sourceTree = "<group>"; };
 		A5C8A5AE1A8F368600DB0A98 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		A5CF1B171A8F268D0018768A /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -210,27 +202,23 @@
 		A5C5B9F71A8ED1E6008B2962 /* speakers */ = {
 			isa = PBXGroup;
 			children = (
-				A5C5B9F81A8ED1E6008B2962 /* 10965404_1615056408716561_1849825701_n1.jpg */,
-				A5C5B9F91A8ED1E6008B2962 /* 120619-Meera-02.jpg */,
-				A5C5B9FA1A8ED1E6008B2962 /* Carolyn-Gable1-e1410055772849.jpg */,
-				A5C5B9FB1A8ED1E6008B2962 /* DanGarciaUCBFacultyTEDxBerkeley5.jpg */,
-				A5C5B9FC1A8ED1E6008B2962 /* DanVieder.jpg */,
-				A5C5B9FD1A8ED1E6008B2962 /* DR.-Victoria-KISYOMBE.jpg */,
-				A5C5B9FE1A8ED1E6008B2962 /* Eric-Gimenez285x335.jpg */,
-				A5C5B9FF1A8ED1E6008B2962 /* Eric-Rasmussen-Head-shot-12.jpg */,
-				A5C5BA001A8ED1E6008B2962 /* good_emily_levine.jpg */,
-				A5C5BA011A8ED1E6008B2962 /* headshot.jpg */,
-				A5C5BA021A8ED1E6008B2962 /* IMG_3292.jpg */,
-				A5C5BA031A8ED1E6008B2962 /* MarcGopin.jpg */,
-				A5C5BA041A8ED1E6008B2962 /* Meyer2.jpg */,
-				A5C5BA051A8ED1E6008B2962 /* Mike-Robbins-headshot1.jpg */,
-				A5C5BA061A8ED1E6008B2962 /* pkaipa12-2-large-e1381879857450.jpg */,
-				A5C5BA071A8ED1E6008B2962 /* RSarpong_TEDX_2015_21.jpg */,
-				A5C5BA081A8ED1E6008B2962 /* SABs-profile-picture1.jpg */,
-				A5C5BA091A8ED1E6008B2962 /* taiko.jpg */,
-				A5C5BA0A1A8ED1E6008B2962 /* Valerie-Joi-Photo.jpg */,
-				A5C5BA0B1A8ED1E6008B2962 /* Viviana.jpg */,
-				A5C5BA0C1A8ED1E6008B2962 /* Woz-Head-Shot2.jpg */,
+				A50705361C3B71E100F76E34 /* AmandineRoche.jpg */,
+				A50705371C3B71E100F76E34 /* AranKhanna.png */,
+				A50705381C3B71E100F76E34 /* ChristopherAtegeka.jpg */,
+				A50705391C3B71E100F76E34 /* DrAndrewSiemeon.jpg */,
+				A507053A1C3B71E100F76E34 /* DrSriramShamasunder.jpg */,
+				A507053B1C3B71E100F76E34 /* DrSusanLim.jpg */,
+				A507053C1C3B71E100F76E34 /* EllenLeanse.png */,
+				A507053D1C3B71E100F76E34 /* JacobCorn.jpeg */,
+				A507053E1C3B71E100F76E34 /* JeromyJohnson.jpg */,
+				A507053F1C3B71E100F76E34 /* JohnKoenig.jpg */,
+				A50705401C3B71E100F76E34 /* JoshuaToch.jpg */,
+				A50705411C3B71E100F76E34 /* KathyCalvin.jpeg */,
+				A50705421C3B71E100F76E34 /* NaveenJain.jpg */,
+				A50705431C3B71E100F76E34 /* OSAChamberChoir.jpg */,
+				A50705441C3B71E100F76E34 /* ReverendDebraJohnson.jpg */,
+				A50705451C3B71E100F76E34 /* RobHotchkiss.jpg */,
+				A50705461C3B71E100F76E34 /* StephanieFreid.jpg */,
 			);
 			name = speakers;
 			path = images/speakers;
@@ -318,38 +306,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50705501C3B71E100F76E34 /* JohnKoenig.jpg in Resources */,
 				A5AB69191A75540900DDD1C1 /* logo.png in Resources */,
-				A5C5BA1E1A8ED1E6008B2962 /* taiko.jpg in Resources */,
-				A5C5BA1C1A8ED1E6008B2962 /* RSarpong_TEDX_2015_21.jpg in Resources */,
+				A507054F1C3B71E100F76E34 /* JeromyJohnson.jpg in Resources */,
 				A522EC761A74EFF000369947 /* timeline.png in Resources */,
-				A5C5BA151A8ED1E6008B2962 /* good_emily_levine.jpg in Resources */,
-				A5C5BA181A8ED1E6008B2962 /* MarcGopin.jpg in Resources */,
+				A50705531C3B71E100F76E34 /* NaveenJain.jpg in Resources */,
 				A5216A811A76E8A00037DCFC /* about.png in Resources */,
 				A522EC731A74EFF000369947 /* home.png in Resources */,
-				A5C5BA171A8ED1E6008B2962 /* IMG_3292.jpg in Resources */,
-				A5C5BA101A8ED1E6008B2962 /* DanGarciaUCBFacultyTEDxBerkeley5.jpg in Resources */,
-				A5C5BA0F1A8ED1E6008B2962 /* Carolyn-Gable1-e1410055772849.jpg in Resources */,
+				A507054C1C3B71E100F76E34 /* DrSusanLim.jpg in Resources */,
 				A5216A871A76EF6B0037DCFC /* music.png in Resources */,
+				A50705551C3B71E100F76E34 /* ReverendDebraJohnson.jpg in Resources */,
+				A507054B1C3B71E100F76E34 /* DrSriramShamasunder.jpg in Resources */,
 				A568370E1A8D14DB00E71EA9 /* Main.storyboard in Resources */,
-				A5C5BA0D1A8ED1E6008B2962 /* 10965404_1615056408716561_1849825701_n1.jpg in Resources */,
-				A5C5BA201A8ED1E6008B2962 /* Viviana.jpg in Resources */,
+				A507054D1C3B71E100F76E34 /* EllenLeanse.png in Resources */,
+				A50705511C3B71E100F76E34 /* JoshuaToch.jpg in Resources */,
+				A50705561C3B71E100F76E34 /* RobHotchkiss.jpg in Resources */,
+				A50705491C3B71E100F76E34 /* ChristopherAtegeka.jpg in Resources */,
 				A5A0B0BC1A745293006914E1 /* LaunchScreen.xib in Resources */,
 				A5216A7F1A76E8630037DCFC /* speakers.png in Resources */,
-				A5C5BA131A8ED1E6008B2962 /* Eric-Gimenez285x335.jpg in Resources */,
-				A5C5BA141A8ED1E6008B2962 /* Eric-Rasmussen-Head-shot-12.jpg in Resources */,
-				A5C5BA1D1A8ED1E6008B2962 /* SABs-profile-picture1.jpg in Resources */,
+				A50705481C3B71E100F76E34 /* AranKhanna.png in Resources */,
 				A5A0B0B91A745293006914E1 /* Images.xcassets in Resources */,
-				A5C5BA121A8ED1E6008B2962 /* DR.-Victoria-KISYOMBE.jpg in Resources */,
+				A50705521C3B71E100F76E34 /* KathyCalvin.jpeg in Resources */,
+				A507054E1C3B71E100F76E34 /* JacobCorn.jpeg in Resources */,
 				A530EC881A8F292E00FAEE55 /* Default-568h@2x.png in Resources */,
-				A5C5BA0E1A8ED1E6008B2962 /* 120619-Meera-02.jpg in Resources */,
-				A5C5BA1B1A8ED1E6008B2962 /* pkaipa12-2-large-e1381879857450.jpg in Resources */,
-				A5C5BA1F1A8ED1E6008B2962 /* Valerie-Joi-Photo.jpg in Resources */,
-				A5C5BA111A8ED1E6008B2962 /* DanVieder.jpg in Resources */,
-				A5C5BA1A1A8ED1E6008B2962 /* Mike-Robbins-headshot1.jpg in Resources */,
-				A5C5BA191A8ED1E6008B2962 /* Meyer2.jpg in Resources */,
-				A5C5BA211A8ED1E6008B2962 /* Woz-Head-Shot2.jpg in Resources */,
+				A507054A1C3B71E100F76E34 /* DrAndrewSiemeon.jpg in Resources */,
+				A50705571C3B71E100F76E34 /* StephanieFreid.jpg in Resources */,
+				A50705471C3B71E100F76E34 /* AmandineRoche.jpg in Resources */,
 				A5216A881A76EF6B0037DCFC /* speaker.png in Resources */,
-				A5C5BA161A8ED1E6008B2962 /* headshot.jpg in Resources */,
+				A50705541C3B71E100F76E34 /* OSAChamberChoir.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
