@@ -34,6 +34,9 @@
 		A530EC881A8F292E00FAEE55 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A530EC871A8F292E00FAEE55 /* Default-568h@2x.png */; };
 		A55A105B1A8ECBA7001E28E5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A105A1A8ECBA7001E28E5 /* DetailViewController.swift */; };
 		A568370E1A8D14DB00E71EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A568370C1A8D14DB00E71EA9 /* Main.storyboard */; };
+		A598E1241C4060D000FB3C0C /* IshaRay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A598E1211C4060D000FB3C0C /* IshaRay.jpg */; settings = {ASSET_TAGS = (); }; };
+		A598E1251C4060D000FB3C0C /* SoniaRao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A598E1221C4060D000FB3C0C /* SoniaRao.jpg */; settings = {ASSET_TAGS = (); }; };
+		A598E1261C4060D000FB3C0C /* UCBerkeleyAzaad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A598E1231C4060D000FB3C0C /* UCBerkeleyAzaad.jpg */; settings = {ASSET_TAGS = (); }; };
 		A59BA6841A745CC400CB5034 /* SpeakersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59BA6831A745CC400CB5034 /* SpeakersTableViewController.swift */; };
 		A59BA6861A745CD500CB5034 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59BA6851A745CD500CB5034 /* TimelineTableViewController.swift */; };
 		A5A0B0B01A745293006914E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0B0AF1A745293006914E1 /* AppDelegate.swift */; };
@@ -84,6 +87,9 @@
 		A530EC871A8F292E00FAEE55 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A55A105A1A8ECBA7001E28E5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A568370D1A8D14DB00E71EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A598E1211C4060D000FB3C0C /* IshaRay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IshaRay.jpg; sourceTree = "<group>"; };
+		A598E1221C4060D000FB3C0C /* SoniaRao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SoniaRao.jpg; sourceTree = "<group>"; };
+		A598E1231C4060D000FB3C0C /* UCBerkeleyAzaad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UCBerkeleyAzaad.jpg; sourceTree = "<group>"; };
 		A59BA6831A745CC400CB5034 /* SpeakersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakersTableViewController.swift; sourceTree = "<group>"; };
 		A59BA6851A745CD500CB5034 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
 		A5A0B0AA1A745293006914E1 /* TEDxBerkeley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEDxBerkeley.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,6 +208,9 @@
 		A5C5B9F71A8ED1E6008B2962 /* speakers */ = {
 			isa = PBXGroup;
 			children = (
+				A598E1211C4060D000FB3C0C /* IshaRay.jpg */,
+				A598E1221C4060D000FB3C0C /* SoniaRao.jpg */,
+				A598E1231C4060D000FB3C0C /* UCBerkeleyAzaad.jpg */,
 				A50705361C3B71E100F76E34 /* AmandineRoche.jpg */,
 				A50705371C3B71E100F76E34 /* AranKhanna.png */,
 				A50705381C3B71E100F76E34 /* ChristopherAtegeka.jpg */,
@@ -308,6 +317,8 @@
 			files = (
 				A50705501C3B71E100F76E34 /* JohnKoenig.jpg in Resources */,
 				A5AB69191A75540900DDD1C1 /* logo.png in Resources */,
+				A598E1241C4060D000FB3C0C /* IshaRay.jpg in Resources */,
+				A598E1251C4060D000FB3C0C /* SoniaRao.jpg in Resources */,
 				A507054F1C3B71E100F76E34 /* JeromyJohnson.jpg in Resources */,
 				A522EC761A74EFF000369947 /* timeline.png in Resources */,
 				A50705531C3B71E100F76E34 /* NaveenJain.jpg in Resources */,
@@ -320,6 +331,7 @@
 				A568370E1A8D14DB00E71EA9 /* Main.storyboard in Resources */,
 				A507054D1C3B71E100F76E34 /* EllenLeanse.png in Resources */,
 				A50705511C3B71E100F76E34 /* JoshuaToch.jpg in Resources */,
+				A598E1261C4060D000FB3C0C /* UCBerkeleyAzaad.jpg in Resources */,
 				A50705561C3B71E100F76E34 /* RobHotchkiss.jpg in Resources */,
 				A50705491C3B71E100F76E34 /* ChristopherAtegeka.jpg in Resources */,
 				A5A0B0BC1A745293006914E1 /* LaunchScreen.xib in Resources */,
