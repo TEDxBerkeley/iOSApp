@@ -115,7 +115,7 @@ var titles = [
     "Kathy Calvin",
     "Sonia Rao",
     "Lunch",
-    "UC Berkley Azaad",
+    "UC Berkeley Azaad",
     "Christopher Ategeka",
     "Isha Ray",
     "Ellen Petry Leanse",
