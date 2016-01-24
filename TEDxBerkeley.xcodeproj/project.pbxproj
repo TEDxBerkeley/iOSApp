@@ -45,6 +45,7 @@
 		A5A0B0BC1A745293006914E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A0B0BA1A745293006914E1 /* LaunchScreen.xib */; };
 		A5A0B0C81A745293006914E1 /* TEDxBerkeleyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0B0C71A745293006914E1 /* TEDxBerkeleyTests.swift */; };
 		A5AB69191A75540900DDD1C1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AB69181A75540900DDD1C1 /* logo.png */; };
+		A5BD164C1C556A6000CBFD49 /* Celli.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A5BD164B1C556A6000CBFD49 /* Celli.jpeg */; settings = {ASSET_TAGS = (); }; };
 		A5C8A5AF1A8F368600DB0A98 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8A5AE1A8F368600DB0A98 /* MainTabBarController.swift */; };
 		A5CF1B181A8F268D0018768A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF1B171A8F268D0018768A /* Data.swift */; };
 /* End PBXBuildFile section */
@@ -102,6 +103,7 @@
 		A5A0B0C61A745293006914E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5A0B0C71A745293006914E1 /* TEDxBerkeleyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEDxBerkeleyTests.swift; sourceTree = "<group>"; };
 		A5AB69181A75540900DDD1C1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
+		A5BD164B1C556A6000CBFD49 /* Celli.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Celli.jpeg; sourceTree = "<group>"; };
 		A5C8A5AE1A8F368600DB0A98 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		A5CF1B171A8F268D0018768A /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -208,6 +210,7 @@
 		A5C5B9F71A8ED1E6008B2962 /* speakers */ = {
 			isa = PBXGroup;
 			children = (
+				A5BD164B1C556A6000CBFD49 /* Celli.jpeg */,
 				A598E1211C4060D000FB3C0C /* IshaRay.jpg */,
 				A598E1221C4060D000FB3C0C /* SoniaRao.jpg */,
 				A598E1231C4060D000FB3C0C /* UCBerkeleyAzaad.jpg */,
@@ -322,6 +325,7 @@
 				A507054F1C3B71E100F76E34 /* JeromyJohnson.jpg in Resources */,
 				A522EC761A74EFF000369947 /* timeline.png in Resources */,
 				A50705531C3B71E100F76E34 /* NaveenJain.jpg in Resources */,
+				A5BD164C1C556A6000CBFD49 /* Celli.jpeg in Resources */,
 				A5216A811A76E8A00037DCFC /* about.png in Resources */,
 				A522EC731A74EFF000369947 /* home.png in Resources */,
 				A507054C1C3B71E100F76E34 /* DrSusanLim.jpg in Resources */,
