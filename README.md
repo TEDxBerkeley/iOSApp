@@ -1,4 +1,4 @@
-# TEDxBerkeley
+# [TEDxBerkeley 2016](https://appsto.re/i6Y93s3)
 *iOS application for the Febraury 6, 2016 event ([2015's](https://github.com/alvinwan/TEDxBerkeley))*
 
 The app features four views and functions:
